@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Accessible Video Demonstration</h1>
+    <video id="video1" data-able-player preload="auto" width="480" height="360" poster="./cover/wwa.jpg">
+        <source type="video/mp4" src="./video/wwa.mp4" data-desc-src="./video/www_described.mp4"/>
+        <track kind="captions" src="./captions/wwa_captions_en.vtt"/>
+        <track kind="descriptions" src="./captions/wwa_description_en.vtt"/>
+      </video>
+    
+</body>
+<!-- Dependencies -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="./build/ableplayer.min.css" type="text/css"/>
+
+<!-- JavaScript -->
+<script src="./build/ableplayer.min.js"></script>
+</html>
